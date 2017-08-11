@@ -1,0 +1,23 @@
+BUG REPORT
+
+TITLE: [All Browsers] 'Phone number' field in Contact panel has no validation.
+
+URL(s): http://dokkio.com/
+
+DESCRIPTION: 'Phone number' field in Contact panel not checking for letters, special characters and number of digits.
+See attached screen shots and video.
+
+EXPECTED BEHAVIOR:
+Validation rules for 'Phone number' field:
+1.) If the phone number is 10 digits long
+3.) If the phone number is just 10 repeating digits
+4.) If the phone number consist only digits and ")", "(", "-" symbols
+
+Browser(s)/OS(s): All
+
+STEPS TO REPRODUCE:
+1. Navigate to the above url.
+2. Scroll down to Contact section.
+3. Input any letter, special character or more than 10 digits.
+4. Click on Submit button
+5. Observe no errors.
